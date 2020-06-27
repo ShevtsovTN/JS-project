@@ -1,6 +1,7 @@
-import './scss/index.scss'
+import './scss/index.scss';
+// eslint-disable-next-line require-jsdoc
 async function start() {
-    return await Promise.resolve('async working')
+  return await Promise.resolve('async working');
 }
 
-start().then(console.log)
+start().then(console.log);
